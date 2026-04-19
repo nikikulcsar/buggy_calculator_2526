@@ -4,7 +4,7 @@ def is_even(n):
     :param n:
     :return:
     """
-    return n % 2 == 1
+    return n % 2 == 0
 
 
 def factorial(n):
@@ -15,6 +15,6 @@ def factorial(n):
     """
     result = 1
     while n > 0:
-        result = result * (n - 1)
+        result = result * sn
         n = n - 1
     return result
